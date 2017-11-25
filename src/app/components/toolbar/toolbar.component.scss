@@ -1,0 +1,107 @@
+#app-toolbar {
+    height: 70px;
+    background-color: #e0e0e0;
+
+    .search {
+        float: left;
+        width: 250px;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+
+        button {
+            padding-left: 30px;
+            padding-right: 18px;
+
+            i {
+                font-size: 18px;
+            }
+        }
+
+        input {
+            font-size: 14px;
+        }
+    }
+
+    .user-profile {
+        float: right;
+        margin-top: 15px;
+        margin-right: 33px;
+
+        display: flex;
+        flex-direction: row;
+
+        .user-avatar {
+            height: 40px;
+            width: 40px;
+            background-color: #37474f;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+
+            * {
+                color: white;
+            }
+        }
+
+        .user-menu {
+            height: 40px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .user-name {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            strong {
+                font-size: 18px;
+            }
+
+            &:before {
+                content: '|';
+                color: #c0c8d1;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 30px;
+                margin-top: -5px;
+            }
+        }
+
+        .user-notifications {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .user-notifications-counter {
+                width: 18px;
+                height: 18px;
+                border-radius: 10px;
+                position: absolute;
+                right: 0px;
+                top: 5px;
+                background-color: #1e88e5;
+
+                p {
+                    font-size: 10px;
+                    font-weight: bolder;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

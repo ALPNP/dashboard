@@ -1,0 +1,23 @@
+#app-header {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+#app-main-container {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 230px 1fr;
+
+    #app-sidebar {
+        height: calc(100vh - 70px);
+        background-color: #37474f;
+    }
+
+    #app-content {
+        width: 100%;
+        height: calc(100vh - 70px);
+        overflow: auto;
+    }
+}
