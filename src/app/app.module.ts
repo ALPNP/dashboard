@@ -8,6 +8,7 @@ import {LogoComponent} from './components/logo/logo.component';
 import {AppSidebarComponent} from './components/app-sidebar/app-sidebar.component';
 import {NgxChartsModule} from "@swimlane/ngx-charts";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { NumbersComponent } from './components/numbers/numbers.component';
 
 @NgModule({
     declarations: [
@@ -15,7 +16,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
         DashboardComponent,
         ToolbarComponent,
         LogoComponent,
-        AppSidebarComponent
+        AppSidebarComponent,
+        NumbersComponent
     ],
     imports: [
         BrowserModule,

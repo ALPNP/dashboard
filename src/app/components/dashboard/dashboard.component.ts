@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
     showXAxis = true;
     showYAxis = true;
     gradient = false;
-    showLegend = true;
+    showLegend = false;
     showXAxisLabel = false;
     xAxisLabel = 'Country';
     showYAxisLabel = false;

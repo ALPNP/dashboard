@@ -1,0 +1,23 @@
+.numbers-content {
+    margin-top: 40px;
+
+    hr {
+        margin-top: 30px;
+    }
+
+    .numbers-body {
+        margin-top: 41px;
+        height: 300px;
+        display: grid;
+        grid-template-columns: 1.1fr 1.5fr;
+        grid-gap: 1rem;
+
+        .numbers-left-content {
+            background-color: white;
+        }
+
+        .numbers-right-content {
+            background-color: white;
+        }
+    }
+}
