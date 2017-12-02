@@ -9,6 +9,8 @@ import {AppSidebarComponent} from './components/app-sidebar/app-sidebar.componen
 import {NgxChartsModule} from "@swimlane/ngx-charts";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { NumbersComponent } from './components/numbers/numbers.component';
+import { NumbersLeftWidgetComponent } from './components/numbers-left-widget/numbers-left-widget.component';
+import { D3SimpleStackedBarChartComponent } from './components/d3-simple-stacked-bar-chart/d3-simple-stacked-bar-chart.component';
 
 @NgModule({
     declarations: [
@@ -17,7 +19,9 @@ import { NumbersComponent } from './components/numbers/numbers.component';
         ToolbarComponent,
         LogoComponent,
         AppSidebarComponent,
-        NumbersComponent
+        NumbersComponent,
+        NumbersLeftWidgetComponent,
+        D3SimpleStackedBarChartComponent
     ],
     imports: [
         BrowserModule,

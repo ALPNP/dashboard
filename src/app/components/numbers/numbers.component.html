@@ -3,9 +3,19 @@
         <strong class="dark-blue-text-18">Crunch some Numbers</strong>
         <p class="light-grey-text-14">See how your projects are progressing via the new statistics engine.</p>
     </div>
+    <div class="numbers-period-switcher">
+        <label for="numbers-chart-select">Timeline: </label>
+        <select name="numbers-chart" id="numbers-chart-select">
+            <option value="t_day">7 days</option>
+            <option value="t_week">2 weeks</option>
+            <option value="t_month">1 month</option>
+        </select>
+    </div>
     <hr class="hr-default">
     <div class="numbers-body">
-        <div class="numbers-left-content"></div>
+        <div class="numbers-left-content">
+            <numbers-left-widget></numbers-left-widget>
+        </div>
         <div class="numbers-right-content"></div>
     </div>
 </div>
