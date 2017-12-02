@@ -1,0 +1,15 @@
+.camera-report-chart-container {
+    .camera-report-chart-svg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+            .axis .domain {
+                display: none;
+            }
+        }
+    }
+    .camera-report-chart-message {
+        padding: 3rem;
+    }
+}

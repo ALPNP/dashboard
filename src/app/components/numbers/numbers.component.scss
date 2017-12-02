@@ -1,5 +1,6 @@
 .numbers-content {
     margin-top: 40px;
+    position: relative;
 
     hr {
         margin-top: 30px;
@@ -18,6 +19,42 @@
 
         .numbers-right-content {
             background-color: white;
+        }
+    }
+
+    .numbers-title {
+        width: 60%;
+    }
+
+    .numbers-period-switcher {
+        top: 10px;
+        right: 0;
+        position: absolute;
+
+        label {
+            color: #4f5f6f;
+            font-size: 14px;
+            font-weight: 100;
+        }
+
+        select {
+            margin-left: 10px;
+            border-radius: 25px;
+            border: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            color: #4f5f6f;
+
+            background: #CDD8DC url('./../../../assets/svg/chevron-down.svg') 85% / 10% no-repeat;
+            padding: 12px 20px 12px 20px;
+
+            &:focus {outline:0;}
+
+            option {
+                border: none;
+                outline: none;
+            }
         }
     }
 }
